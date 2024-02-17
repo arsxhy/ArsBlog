@@ -1,0 +1,116 @@
+<!--Nama : Muhammad Arasy-->
+<!--NIM : 10123354-->
+<!--Kelas : IF9-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>ArsBlog</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>ArsBlog</h1>
+      <p>Tempat Anda Menemukan Hal-hal Menarik</p>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="../index.html">Beranda</a></li>
+        <li class="menu-parent">
+          <a href="#">Teknologi</a>
+          <ul class="submenu">
+            <li><a href="../pages/archTutor.html">Tutorial Instalasi Arch Linux</a></li>
+          </ul>
+        </li>
+        <li class="menu-parent">
+          <a href="#">Game</a>
+          <ul class="submenu">
+            <li><a href="../pages/tLauncherTutor.html">Tutorial Instalasi TLauncher di Linux</a></li>
+            <li><a href="../pages/steamBottle.html">Tutorial Instalasi Game Steamunlocked di Linux</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Opini</a></li>
+        <li><a href="#">Tentang</a></li>
+        <li><a href="#">Kontak</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="main-content">
+    <div class="container">
+      <article class="tutorial">
+        <div class="tutorial-content">
+          <h2>Tutorial Instalasi Game Steamunlocked di Linux</h2>
+          <p class="meta">Posted by Admin on February 17, 2024</p>
+          <img src="../multimedia/images/game/steamunlocked/legostarwars/legostarwars.png" width="500px" alt="Arch Linux">
+          <p>
+            Assalamualaikum Wr Wb. Kembali lagi bersama saya di Tutorial kali ini saya akan memberitahu kalian cara untuk instalasi Game Steamunlocked di Linux.
+          </p>
+          <p>Gaming di Linux sudah bukan hal yang sulit dan terdengar mustahil lagi. Semenjak dikembangkannya WINE dan Proton sebagai Software yang menerjemahkan API Windows ke API Linux, maka kita bisa memainkan game Windows di Linux.</p>
+          <p>WINE dan Proton adalah Software yang bisa menerjemahkan API Windows ke API Linux. Salah satu program yang bisa memudahkan kita untuk melakukannya adalah Bottle.</p>
+          <br>
+          <img src="../multimedia/images/game/steamunlocked/legostarwars/bottleFlatpak.png" width="800px" alt="Bottle Flatpak">
+          <p>Bottle adalah software yang bisa menjalankan software Windows di Linux dengan menggunakan sistem yang ter-kontainerisasi dan menjaga agar Software Windows yang berjalan tetap stabil.</p>
+          <p>Tanpa berbasa-basi lagi, mari kita mulai...</p>
+          <h3>1. Pertama-tama install dulu Flatpak yang merupakan package manager untuk instalasi Bottle</h3>
+          <p>Untuk menginstal flatpak, buka terminal dan kita bisa gunakan perintah berikut:
+            <ul>
+                <li>Arch Linux dan Variannya:
+                    <br>
+                    <img src="../multimedia/images/game/steamunlocked/legostarwars/pacman.png" width="500px" alt="sudo pacman -S flatpak">
+                </li>
+                <li>Debian/Ubuntu/Linux Mint dan Variannya:
+                    <br>
+                    <img src="../multimedia/images/game/steamunlocked/legostarwars/apt.png" width="500px" alt="sudo apt install flatpak">
+                </li>
+                <li>Fedora/RHEL/CentOS dan Variannya:
+                    <br>
+                    <img src="../multimedia/images/game/steamunlocked/legostarwars/dnf.png" width="500px" alt="sudo dnf install flatpak">
+                </li>
+            </ul>
+          </p>
+          <h3>2. Setelah instalasi flatpak selesai, Reboot Komputer Anda.</h3>
+          <p>Sangat dianjurkan untuk Reboot setelah instalasi flatpak agar program flatpak berjalan secara optimal nantinya.</p>
+          <h3>3. Buka Terminal dan Jalankan perintah berikut untuk instalasi Bottle</h3>
+          <br>
+          <img src="../multimedia/images/game/steamunlocked/legostarwars/flatpakInstall.png" width="500px" alt="flatpak install flathub com.usebottles.bottles">
+          <h3>4. Setelah Bottle terinstall, maka akan bisa dibuka langsung di Menu Launcher atau App Launcher</h3>
+          <p>Cari saja "Bottles" di Menu Launcher yang ada di Desktop Environment masing-masing.</p>
+          <img src="../multimedia/images/game/steamunlocked/legostarwars/bottlesMenu.png" alt="Bottles ada di Menu Launcher">
+          <h3>5. Jalankan Bottles dan tunggu sampai program siap.</h3>
+          <br>
+          <img src="../multimedia/images/game/steamunlocked/legostarwars/startBottle.png" alt="Starting Up...">
+          <h3>6. Klik tanda tambah "+" yang ada di pojok kiri atas program</h3>
+          <h3>7. Pilih untuk "Gaming" dan beri nama Kontainer Bottle Anda sesuka hati</h3>
+          <br>
+          <img src="../multimedia/images/game/steamunlocked/legostarwars/gamingBottle.png" alt="Setup untuk Gaming">
+          <h3>8. Klik "Run Executable..." dan cari file Game Steamunlocked yang sudah anda unduh</h3>
+          <p>Disini saya memakai game Lego Star Wars: The Complete Saga.</p>
+          <br>
+          <img src="../multimedia/images/game/steamunlocked/legostarwars/RunExe.png" alt="Run Executable">
+          <br>
+          <img src="../multimedia/images/game/steamunlocked/legostarwars/findExe.png" alt="Cari file Executable">
+          <h3>9. Maka file sudah ditambahkan di Shorcut, tinggal klik tanda segitiga untuk memainkannya.</h3>
+          <br>
+          <img src="../multimedia/images/game/steamunlocked/legostarwars/runStarWars.png" alt="Klik Segitiga untuk main Game nya.">
+          <h3>10. Selamat... Anda telah bisa memainkan game Steamunlocked di Linux.</h3>
+          <br>
+          <img src="../multimedia/images/game/steamunlocked/legostarwars/complete.png" alt="Selesai">
+
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 ArsBlog. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
