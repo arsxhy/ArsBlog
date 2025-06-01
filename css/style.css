@@ -2,126 +2,126 @@
 /* NIM : 10123354 */
 /* Kelas : IF9 */
 body {
-	font-family: 'Arial', sans-serif;
-	margin: 0;
-	padding: 0;
-	background-color: #f4f4f4;
-	color: #333;
-  }
-  
-  .container {
-	width: 80%;
-	margin: 0 auto;
-  }
-  
-  header {
-	background-color: #3498db;
-	color: #fff;
-	padding: 20px 0;
-	text-align: center;
-  }
-  
-  nav {
-	background-color: #333;
-  }
-  
-  nav ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	display: flex;
-	justify-content: center;
-  }
-  
-  nav ul li {
-	margin-right: 20px;
-	position: relative;
-  }
-  
-  nav a {
-	text-decoration: none;
-	color: #ecf0f1;
-	padding: 10px 15px;
-	border-radius: 5px;
-  }
-  
-  nav a:hover {
-	background-color: #555;
-  }
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
 
-  .submenu {
-	display: none;
-	position: absolute;
-	top: 100%; 
-	left: 0;
-	background-color: #333;
-	border-radius: 0 0 5px 5px;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .menu-parent:hover .submenu {
-	display: block;
-  }
-  
-  .submenu li {
-	display: block;
-	width: 100%;
-  }
-  
-  .submenu a {
-	padding: 10px 15px;
-  }
-  
-  section.main-content {
-	padding: 20px 0;
-  }
-  
-  article.tutorial {
-	background-color: #fff;
-	padding: 20px;
-	margin-bottom: 20px;
-	border-radius: 5px;
-	overflow: hidden;
-	display: flex; 
-  }
-  
-  article.tutorial img {
-	max-width: 100%; 
-	height: auto;
-	border-radius: 5px;
-	order: 1; 
-  }
-  
-  article.tutorial .tutorial-content {
-	flex: 1; 
-	overflow: hidden;
-  }
-  
-  article.tutorial h2 {
-	color: #3498db;
-  }
-  
-  article.tutorial p.meta {
-	color: #777;
-  }
-  
-  article.tutorial a {
-	display: inline-block;
-	margin-top: 10px;
-	padding: 10px 20px;
-	background-color: #3498db;
-	color: #fff;
-	text-decoration: none;
-	border-radius: 3px;
-  }
-  
-  footer {
-	background-color: #333;
-	color: #ecf0f1;
-	text-align: center;
-	padding: 10px 0;
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-  }
-  
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+  position: relative;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ecf0f1;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-parent:hover .submenu {
+  display: block;
+}
+
+.submenu li {
+  display: block;
+  width: 100%;
+}
+
+.submenu a {
+  padding: 10px 15px;
+}
+
+section.main-content {
+  padding: 20px 0;
+}
+
+article.tutorial {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+}
+
+article.tutorial img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  order: 1;
+}
+
+article.tutorial .tutorial-content {
+  flex: 1;
+  overflow: hidden;
+}
+
+article.tutorial h2 {
+  color: #3498db;
+}
+
+article.tutorial p.meta {
+  color: #777;
+}
+
+article.tutorial a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+footer {
+  background-color: #333;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
